@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,800;0,900;0,1000;1,700&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* common shared style */
+
+body {
+    width: 1440px;
+    width: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    background: #FFF;
+}
+
+
+
+
+
+
+/* nav section style */
+
+
+#nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.website-logo {
+    display: flex;
+    gap: 5px;
+}
+
+.website-logo img {
+    width: 30px;
+    width: 100%;
+    width: fit-content;
+}
+
+.website-logo .happy {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.website-logo .trips {
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.menu-bar ul {
+    display: flex;
+    gap: 44px;
+    list-style: none;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.menu-bar ul .home {
+    color: #FF5400;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.menu-bar ul a {
+    text-decoration: none;
+}
