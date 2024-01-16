@@ -189,29 +189,62 @@ main {
     padding-bottom: 20px;
 }
 
-.destination{
+.destination {
     padding: 35px 150px;
 }
 
-.destination .common-title{
+.destination .common-title {
     margin-bottom: 20px;
 }
 
-.photo-container .photo-first, .photo-second, .photo-third{
+.photo-container .photo-first,
+.photo-second,
+.photo-third {
     display: flex;
     gap: 24px;
     margin-top: 24px;
 }
 
 
-.why-choose-us-container{
+.why-choose-us-container {
     padding: 35px 150px;
 }
 
-.why-choose-us-container .common-title{
+.why-choose-us-container .common-title {
     margin-top: 25px;
     padding-bottom: 20px;
 }
+
+.best-service {
+    display: flex;
+    gap: 24;
+}
+
+.best-service img {
+    margin-bottom: 15px;
+}
+
+.best-service .common-carts-title {
+    padding-bottom: 20px;
+}
+
+.best-service .hotels,
+.location {
+    padding: 24px;
+}
+
+.cards-container .discount {
+    max-width: 573px;
+    width: 100%;
+    text-align: center;
+    padding: 45px 30px 250px;
+    margin: 0 auto;
+}
+
+.cards-container .discount .common-carts-title {
+    padding-bottom: 20px;
+}
+
 /* main section ends */
 
 /* --------footer section style starts------- */
