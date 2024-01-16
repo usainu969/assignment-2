@@ -70,11 +70,37 @@ main {
     font-weight: 800;
 }
 
-.common-descripiton {
-    color: rgba(19, 19, 24, 0.70);
-    text-align: center;
+.booking-criteria {
+    padding: 50px;
+}
+
+.book-title {
+    margin-bottom: 20px;
+    color: #131318;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.book-description {
+    color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.price {
+    color: #FF5400;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.common-descripiton,
+{
+color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
 }
 
 /* nav section style starts here*/
@@ -145,11 +171,20 @@ main {
 
 /* --------main section starts------ */
 
-.popular-tour-container,
+.popular-tour-container {
+    display: flex;
+    height: 550px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    gap: 25px;
+}
+
 .perfect-place-container {
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 80%;
     margin-top: 50px;
     justify-content: space-between;
     gap: 25px;
@@ -175,6 +210,13 @@ main {
 .popular-tour-container .popular-tour-photo,
 .perfect-place-photo {
     width: 50%;
+}
+
+.popular-tour-container .popular-tour-photo img {
+
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px 0;
 }
 
 .popular-tour-container .popular-tour-photo img,
@@ -210,7 +252,7 @@ main {
 .photo-third {
     display: flex;
     gap: 24px;
-    margin-top: 0 auto;
+    margin-top: 24px;
     justify-content: center;
 }
 
@@ -280,7 +322,58 @@ main {
     padding: 0 30px 350px;
 }
 
+.booking-1 {
+    background-image: url('../Images/book-1.png');
+    margin-top: 30px;
+    border: 2px solid yellowgreen;
+    width: 1170px;
+    height: 500px;
+    position: relative;
+}
 
+.booking-1 .booking-details {
+    margin: 55px 500px 55px;
+}
+
+.booking-2 .booking-details {
+    margin: 55px 55px 500px;
+}
+
+.booking-3 .booking-details {
+    margin: 55px 500px 55px;
+}
+
+.booking-2 {
+    background-image: url('../Images/book-2.png');
+    margin-top: 30px;
+    border: 2px solid yellowgreen;
+    width: 1170px;
+    height: 500px;
+}
+
+.booking-3 {
+    background-image: url('../Images/book-1.png');
+    margin-top: 30px;
+    border: 2px solid yellowgreen;
+    width: 1170px;
+    height: 500px;
+}
+
+.booking-details {
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(0.5px);
+    padding-top: 30px;
+}
+
+.iframe {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+}
 
 .newsletter-container {
     height: 100%;
@@ -373,10 +466,16 @@ footer {
     list-style: none;
     justify-content: center;
     gap: 30px;
+
+}
+
+.text-container p {
+    margin-bottom: 30px;
 }
 
 .text-container ul a {
     text-decoration: none;
+
 }
 
 footer .all-rights-reserved p {
