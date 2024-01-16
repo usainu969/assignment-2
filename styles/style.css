@@ -203,6 +203,15 @@ main {
     margin-top: 24px;
 }
 
+
+.why-choose-us-container{
+    padding: 35px 150px;
+}
+
+.why-choose-us-container .common-title{
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
 /* main section ends */
 
 /* --------footer section style starts------- */
