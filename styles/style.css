@@ -23,6 +23,11 @@ main {
     background: #fff;
 }
 
+main {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 .website-logo {
     display: flex;
     gap: 5px;
@@ -47,7 +52,16 @@ main {
     font-weight: 800;
 }
 
-
+.btn-primary {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 14px 30px;
+    border: 0;
+}
 
 
 
@@ -115,7 +129,46 @@ main {
 
 
 /* banner section style ends here  */
+/* --------------------------------------------- */
 
+/* --------main section starts------ */
+
+.popular-tour-container {
+    display: flex;
+    width: auto;
+    height: 100%;
+    border: 2px solid goldenrod;
+}
+
+.popular-tour-container .popular-tour-content {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding: 25px 15px 0;
+    width: 50%;
+}
+
+.popular-tour-container .popular-tour-photo {
+    width: 50%;
+}
+
+.popular-tour-container .popular-tour-photo img {
+    object-fit: cover;
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+.common-comment {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.popular-tour-content ul li {
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+/* main section ends */
 
 /* --------footer section style starts------- */
 
@@ -162,7 +215,7 @@ footer {
     text-decoration: none;
 }
 
-footer .all-rights-reserved p{
+footer .all-rights-reserved p {
     color: #131318;
     font-size: 16px;
     font-weight: 300;
