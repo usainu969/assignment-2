@@ -24,19 +24,38 @@
         font-size: 40px;
         font-weight: 600;
     }
-    #banner-container .banner-text-container .banner-description{
+
+    #banner-container .banner-text-container .banner-description {
         margin: 0;
         text-align: center;
         margin-top: 25px;
     }
 
-    footer .text-container{
+    main {
+        margin: 0;
+    }
+
+    .popular-tour-container {
+        flex-direction: column-reverse;
+    }
+
+    .popular-tour-container .popular-tour-content {
+        width: 100%;
+    }
+
+    .popular-tour-container .popular-tour-photo {
+        width: 100%;
+    }
+
+
+    footer .text-container {
         padding-left: 30px;
         padding-right: 30px;
         padding-top: 80px;
         margin-bottom: 25px;
     }
-    footer .text-container ul{
+
+    footer .text-container ul {
         margin-top: 20px;
     }
 }
