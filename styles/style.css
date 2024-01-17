@@ -164,7 +164,23 @@ font-weight: 400;
     margin: 24px 10px 247px 247px;
 }
 
+#banner-container .input-btn {
+    display: flex;
+    width: 174px;
+   justify-content: center;
+    height: 100%;
+    height: 52px;
+    border-radius: 8px;
+    background: #e6aaaa;
+    margin: 0 auto;
+}
 
+#banner-container .input-btn input[type="text"]{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+    position: absolute;
+}
 
 /* banner section style ends here  */
 /* --------------------------------------------- */
@@ -368,6 +384,15 @@ font-weight: 400;
     padding-top: 30px;
 }
 
+
+.see-all-button {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    padding: 15px;
+    font-weight: 600;
+}
+
 .iframe {
     display: flex;
     width: 100%;
@@ -404,6 +429,7 @@ font-weight: 400;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
     border: none;
+    padding-left: 15px;
 }
 
 .input-btn button {
@@ -432,7 +458,7 @@ font-weight: 400;
 footer {
     height: 350px;
     background: rgba(19, 19, 24, 0.05);
-    margin-left: 0;
+    margin: 0;
 
 }
 
