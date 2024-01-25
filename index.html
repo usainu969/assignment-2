@@ -4,31 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/responsive.css">
     <link rel="shortcut icon" href="Images/web-logo.png" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/ae8c3b2c6e.js" crossorigin="anonymous"></script>
     <title>happyTrips</title>
 </head>
+
 <body>
-    <header class="mx-32">
+    <header class="mx-28">
         <!-- nav section starts -->
-        <nav class="flex justify-between items-center mt-4">
+        <nav class="flex justify-between items-center h-[100px] bg-slate-100 bg-opacity-20 px-8">
             <div class="flex justify-between items-center text-2xl space-x-2">
                 <img src="Images/web-logo.png" alt="">
                 <h1 class="font-bold">Happy<span class="text-[#ff5400] ">Trips</span></h1>
             </div>
-            <div class="flex justify-between items-center space-x-3 text-[#424247] ">
-                <a href="#">Home</a>
-                <a href="#">Packages</a>
-                <a href="#">Testimonial</a>
-                <a href="#">Blog</a>
-                <a href="#">Contact</a>
+            <div class="flex justify-between items-center space-x-3 text-[#424247]">
+                <a class="font-bold opacity-75" href="#">Home</a>
+                <a class="font-bold opacity-75" href="#">Packages</a>
+                <a class="font-bold opacity-75" href="#">Testimonial</a>
+                <a class="font-bold opacity-75" href="#">Blog</a>
+                <a class="font-bold opacity-75" href="#">Contact</a>
             </div>
         </nav>
         <!-- nav section ends here  -->
-        
+        <div class="relative w-full">
+            <figure>
+                <img class="w-full" src="Images/banner-bg.png" alt="">
+            </figure>
+            <div class="text-white absolute flex justify-center items-center mt-[-35%] w-full">
+                <div>
+                    <h1 class="font-bold text-6xl text-center">Explore Your Travel</h1>
+                    <p class="text-center mt-8 text-xl opacity-75">Traveling opens doors to new experiences, cultures, and perspectives.
+                        <br>It's a journey of discovery, where every step leads to a world of wonder.</p>
+                    <div class="p-4 mt-12 w-auto h-auto bg-slate-500 bg-opacity-70 rounded-md">
+                        
+                        <input class="p-4 w-[174px] h-[50px] rounded-md" placeholder="Where go" type="text">
+                        <input class="p-4 w-[174px] h-[50px] rounded-md" placeholder="When" type="text">
+                        <input class="p-4 w-[174px] h-[50px] rounded-md" placeholder="Select type" type="text">
+                        <button class="w-[174px] h-[50px] bg-red-700 text-white rounded-md">
+                            Find Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
     <main>
 
